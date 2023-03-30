@@ -2,7 +2,7 @@
 const body = document.querySelector("body");
 const inputField = document.createElement("input");
 const showButton = document.createElement("button");
-showButton.textContent = "button";
+showButton.textContent = "show";
 body.appendChild(inputField);
 body.appendChild(showButton);
 showButton.addEventListener("click", function(event) {
